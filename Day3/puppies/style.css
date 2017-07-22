@@ -68,32 +68,7 @@ body > div{
     font-weight: 400;
   }
 
-  ul{
-    font-weight: bold;
-    line-height: 1.6
-  }
-
-  section {
-    border-bottom: 1px solid #dddddd;
-    border-width: 5px;
-    padding: 25px;
-  }
-
-  table{
-    width: 99.5%;
-  }
-
-  table, td{
-    border-collapse: collapse;
-    border: 1px solid #1fabe5;
-  }
-
-  thead td{
-    color: white;
-    background-color: #1fabe5;
-    border-color: black;
-    padding: 10px;
-  }
+  
 
   tbody td{
   padding: 5px;
