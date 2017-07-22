@@ -13,8 +13,8 @@ colors:
     dark blue - #046c97
 */
 body{
-  margin: 0;
-  padding: 0;
+  max-width: 990px;
+  margin:auto;
   font-family: Helvetica, Arial, sans-serif;
   line height: 1.6;
   background-color: grey;
@@ -22,28 +22,23 @@ body{
 }
 
 body > div{
-  /*margin: 0 auto;*/
-  width: 70%;
   border: 1px solid #ffd24a;
   font-size: 20px;
   height: 1800px;
 }
 
 body ul{
-  /*margin: 10px;*/
   padding: 10px;
 }
 
 #logo img{
   height: 50px;
-  /*margin-bottom: 0px;*/
   padding-bottom: 20px;
 }
 
 #site_header{
   background-color: #ff8523;
   padding: 20px;
-  /*margin: 0;*/
   height: 110px;
 }
 
@@ -65,13 +60,11 @@ body ul{
 
   #page_content{
     background-color: white;
-    /*margin: 0;*/
     padding: 20px 5px 20px 5px;
   }
 
   h3, h2{
     color: #1fabe5;
-    /*margin: 0;*/
     padding: 0;
     text-align: left;
   }
@@ -128,6 +121,8 @@ body ul{
   form{
     padding: 1px;
     background-color: #eee;
+    height: 610px;
+    border-radius: 10px;
   }
 
   .name{
@@ -149,4 +144,31 @@ body ul{
   .city_container{
     padding: 30px 20px;
     font-weight: 700;
+  }
+
+  label[for="bio"]{
+    font-weight: 700;
+    padding: 20px 20px;
+  }
+
+  textarea[name="bio"]{
+    margin: 20px 20px;
+    width: 93%;
+    height: 210px;
+    font-size: 25px;
+    padding: 10px;
+    border-color: #1fabe5;
+  }
+
+  .submit_container input{
+    font-weight: 700;
+    height: 55px;
+    width: 100px;
+    margin: 5px 20px;
+    background-color: #1fabe5;
+    color: white;
+    font-size: 15px;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 5px;
   }
