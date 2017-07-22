@@ -1,0 +1,113 @@
+/*
+font info:
+    family - Helvetica, Arial, sans-serif
+    line-height - 1.6
+
+
+colors:
+    light gray - ##eee
+    gray - #dddddd
+    yellow - #ffd24a
+    orange - #ff8523
+    blue - #1fabe5
+    dark blue - #046c97
+*/
+body{
+  font-family: Helvetica, Arial, sans-serif;
+  line height: 1.6;
+  background-color: grey;
+}
+
+body > div{
+  margin: 0 auto;
+  width: 70%;
+  border: 1px solid #ffd24a;
+}
+
+#logo img{
+  height: 50px;
+  margin-bottom: 0px;
+  padding-bottom: 20px;
+}
+
+#site_header{
+  background-color: #ff8523;
+  padding: 20px;
+  margin: 0;
+  height: 110px;
+}
+
+.main_navigation a{
+    border: 1px solid #D1D67C;
+    border-color: white;
+    color: white;
+    font-weight: bold;
+    padding: 10px 30px 10px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+  }
+
+  #page_content{
+    background-color: white;
+    margin: 0;
+    padding: 0;
+  }
+
+  h3, h2{
+    color: #1fabe5;
+    margin: 0;
+  }
+
+  h2{
+    padding-bottom: 10px;
+  }
+
+  #page_content a{
+    color: #1fabe5;
+    font-weight: 400;
+  }
+
+  ul{
+    font-weight: bold;
+    line-height: 1.6
+  }
+
+  section {
+    border-bottom: 1px solid #dddddd;
+    border-width: 5px;
+    padding: 25px;
+  }
+
+  table{
+    width: 99.5%;
+  }
+
+  table, td{
+    border-collapse: collapse;
+    border: 1px solid #1fabe5;
+  }
+
+  thead td{
+    color: white;
+    background-color: #1fabe5;
+    border-color: black;
+    padding: 10px;
+  }
+
+  tbody td{
+  padding: 5px;
+  }
+
+  tbody, img{
+    height: 70px;
+  }
+
+  .name{
+  background-color: #ff8523;
+  padding: 10px;
+  }
+
+  form{
+    border: solid grey;
+  }
